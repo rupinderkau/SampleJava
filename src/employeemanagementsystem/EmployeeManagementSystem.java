@@ -11,11 +11,22 @@ package employeemanagementsystem;
  */
 public class EmployeeManagementSystem {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+    
+    
+    public static void main(String[] args) 
+    {
+           Employee e1= new Employee();
+                
+                   e1.employeeId = 1;
+                e1.employeename="rupinder";
+                e1.salary=12220;
+                
+                Employee e2= new Employee();
+                e2.employeeId=1;
+                e2.employeeName="kaur";
+                e2.salary=12220;
+                e2.display();
+                
+     }
     
 }
